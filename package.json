@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KC135Q/q-tables/issues"
   },
-  "homepage": "https://github.com/KC135Q/q-tables#readme"
+  "homepage": "https://github.com/KC135Q/q-tables#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
