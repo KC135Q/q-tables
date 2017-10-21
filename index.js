@@ -22,7 +22,7 @@ var waitList = [];
 
 // Set get root route
 app.get('/', function(req, res) {
-   res.send("<h1>Welcome to Q's Tables.");
+    res.sendFile(path.join(__dirname, "home.html"));
 });
 
 app.get('/home', function(req, res) {
